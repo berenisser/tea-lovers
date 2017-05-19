@@ -51,6 +51,27 @@ Código Hexadecimal gris footer: #3B3B3B
 	cursor: pointer;
 }
 
+.todos-inputs {
+	display: none;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.todos-inputs h2,
+.todos-inputs label {
+	color: white;
+}
+
+.todos-inputs h2{
+	font-size: 3em;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+.show {
+	display: block;
+}
+
 /*Seccion about*/
 #about {
 	background: url("../img/fondo-about.jpg");

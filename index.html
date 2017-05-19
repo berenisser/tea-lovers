@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="assets/css/style.css">	
 	</head>
 	<body>
+
 <!-- Seccion bienvenida -->
 	<section id="bienvenida">
 		<div class="logo">
@@ -16,8 +17,48 @@
 			<img class="mensaje" src="assets/img/bienvenida.png" alt="">
 		</div>
 	</section>
+
 <!-- Seccion Newsletter -->
 	<section class="color">
+		<form class="todos-inputs">
+			<div>
+				<h2>¿Te gusta el té?</h2>
+			</div>
+			<div>
+				<label for="nombre">Nombre:</label>
+			</div>
+			<div>
+				<input type="text" placeholder="Escribe tu nombre">
+			</div>
+			<div>
+				<label for="mail">Email:</label>
+			</div>
+			<div>
+				<input type="email" placeholder="Escribe tu email">
+			</div>
+			<div>
+				<label for="direccion">Dirección:</label>
+			</div>
+			<div>
+				<input type="text" placeholder="Escribe tu dirección">
+			</div>
+			<div>
+				<label for="tes">Té favorito:</label>
+			</div>
+			<select name="tes" id="selecciones">
+				<option value="">Selecciona tu té</option>
+				<option value="Negro">Negro</option>
+				<option value="Verde">Verde</option>
+				<option value="Rojo">Rojo</option>
+				<option value="Blanco">Blanco</option>
+				<option value="Oolong">Oolong</option>
+			</select>
+			<div>
+				<input type="checkbox" id="check">
+				<label for="check">Quiero recibir muestras gratis</label>
+			</div>
+		</form>
+
 		<div class="newsletter">
 			<button id="suscribirse">Suscríbete a nuestro Newsletter</button>
 		</div>
@@ -65,8 +106,9 @@
 			<img class="logo" src="assets/img/logo.png" alt="logo">
 		</div>
 		<div class="contenido">
-			<h1>Disfruta <br> el sabor de té</h1>
+			<h1>Disfruta <br> el sabor del té</h1>
 		</div>
 	</section>
+	<script src="assets/js/main.js"></script>
 	</body>
 </html>
