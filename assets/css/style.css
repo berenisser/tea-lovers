@@ -37,7 +37,8 @@ Código Hexadecimal gris footer: #3B3B3B
 /*Newsletter*/
 .newsletter {
 	text-align: center;
-	padding: 50px;
+	padding-top: 25px;
+	padding-bottom: 50px;
 }
 
 .newsletter button {
@@ -51,8 +52,9 @@ Código Hexadecimal gris footer: #3B3B3B
 	cursor: pointer;
 }
 
+/*Seccion input de Newsletter*/
 .todos-inputs {
-	display: none;
+	display: block;
 	text-align: center;
 	padding-top: 50px;
 }
@@ -66,11 +68,16 @@ Código Hexadecimal gris footer: #3B3B3B
 	font-size: 3em;
 	font-weight: bolder;
 	text-transform: uppercase;
+	padding-bottom: 15px;
 }
 
-.show {
-	display: block;
+.todos-inputs .anchar{
+	border-radius: 0.6em 0.6em;	
+	font-size: 12pt;	
+	width: 450px;
+	padding: 2px;
 }
+
 
 /*Seccion about*/
 #about {
